@@ -10,11 +10,11 @@ The following example shows how to use the library:
 
     ...
 
-    // Create a tokenizer and pass the stylesheet as a string ...
-    using var tokenizer = new CssTokenizer("...");
+    // Create a token-reader/tokenizer and pass the stylesheet as a string ...
+    using var tokenizer = new TokenReader("...");
  
     // ... or pass a stream
-    using var tokenizer = new CssTokenizer(
+    using var tokenizer = new TokenReader(
       new FileStream("style.css", FileMode.Open, FileAccess.Read));
 
     // Create the parser and pass the tokenizer
