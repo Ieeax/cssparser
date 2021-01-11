@@ -1,0 +1,31 @@
+﻿namespace Leeax.Parsing.CSS
+{
+    public enum TokenType
+    {
+        Ident,
+        Function,
+        AtKeyword,
+        Hash,
+        String,
+        BadString,
+        Url,
+        BadUrl,
+        Delim,
+        Number,
+        Percentage,
+        Dimension,
+        Whitespace,
+        CDO,
+        CDC,
+        Colon,
+        Semicolon,
+        Comma,
+        LeftSquareBracket,
+        RightSquareBracket,
+        LeftParenthesis,
+        RightParenthesis,
+        LeftCurlyBracket,
+        RightCurlyBracket,
+        EOF
+    }
+}

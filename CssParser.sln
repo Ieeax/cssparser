@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CssParser", "src\CssParser\CssParser.csproj", "{A527C20E-28A9-4CF8-A3ED-1C8EED484EE7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CssParser.Tests", "src\CssParser.Tests\CssParser.Tests.csproj", "{F2A6D751-157D-4807-88DD-6041F5BE98C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A527C20E-28A9-4CF8-A3ED-1C8EED484EE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A527C20E-28A9-4CF8-A3ED-1C8EED484EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A527C20E-28A9-4CF8-A3ED-1C8EED484EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A527C20E-28A9-4CF8-A3ED-1C8EED484EE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2A6D751-157D-4807-88DD-6041F5BE98C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2A6D751-157D-4807-88DD-6041F5BE98C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2A6D751-157D-4807-88DD-6041F5BE98C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2A6D751-157D-4807-88DD-6041F5BE98C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEBCCBB2-8555-455B-8879-388D6939B2A3}
+	EndGlobalSection
+EndGlobal
