@@ -1,5 +1,5 @@
 # Introduction 
-A fast and lightweight CSS tokenizer/parser.
+A fast and lightweight CSS tokenizer/parser based on .NET 5 and no dependencies.
 Implementation follows (mostly) the W3C specification at https://www.w3.org/TR/css-syntax-3/
 > **Attention:** Be aware that the library does not support the full specification and thus some complex rules may not be parsable/parsed correctly.
 
