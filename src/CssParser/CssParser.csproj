@@ -6,4 +6,16 @@
     <RootNamespace>Leeax.Parsing.CSS</RootNamespace>
   </PropertyGroup>
 
+  <!-- Nuget configuration -->
+  <PropertyGroup>
+    <PackageId>Leeax.Parsing.CSS</PackageId>
+    <Authors>leeax</Authors>
+    <Description>A lightweight CSS tokenizer/parser with no dependencies.</Description>
+    <PackageTags>css;css3;tokenizer;parser</PackageTags>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/Ieeax/cssparser</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Ieeax/cssparser</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
 </Project>
