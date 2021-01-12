@@ -4,6 +4,8 @@ Implementation follows (mostly) the W3C specification at https://www.w3.org/TR/c
 > **Attention:** Be aware that the library does not support the full specification and thus some complex rules may not be parsable/parsed correctly.
 
 # Getting Started
+The library is available as a [NuGet-package](https://www.nuget.org/packages/Leeax.Parsing.CSS/). Reference it from your project and you're ready to go.
+
 The following example shows how to use the library:
 ```csharp
     using Leeax.Parsing.CSS;
